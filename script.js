@@ -1,4 +1,4 @@
-const ZIP_URL = "./downloads/MERN_Practicals_Full.zip";
+const ZIP_URL = "./public/downloads/MERN_Practicals_Full.zip";
 const modal = document.getElementById("modal");
 const countdownText = document.getElementById("countdownText");
 const progressBar = document.getElementById("progressBar");
