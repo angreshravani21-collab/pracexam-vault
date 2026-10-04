@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0b0d12" />
+  <meta name="description" content="MERN Practical Exam resources — download the complete organized practical ZIP." />
+  <title>PracExam Vault — MERN Practicals</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="nav">
+    <a class="brand" href="./">
+      <span class="brand-mark">P</span>
+      <span>PracExam <b>Vault</b></span>
+    </a>
+    <span class="status"><i></i> MERN PRACTICALS</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow">PRACTICAL EXAM • 2026</div>
+      <h1>Your MERN<br><span>practicals, ready.</span></h1>
+      <p class="lead">One organized ZIP. Every practical. Every question. Download it once and keep it with you for revision.</p>
+      <button class="download-btn" id="downloadBtn">
+        <span>Download Practicals</span>
+        <span class="arrow">↓</span>
+      </button>
+      <p class="hint">ZIP • 45 KB • 145 files • no account required</p>
+    </section>
+
+    <section class="card-grid">
+      <article class="info-card featured">
+        <div class="card-top"><span class="pill">COMPLETE PACK</span><span>01</span></div>
+        <h2>MERN Practical Pack</h2>
+        <p>Prac 2 through Prac 10, separated question-by-question into runnable mini-projects.</p>
+        <div class="tags"><span>React</span><span>Node.js</span><span>Express</span><span>MongoDB</span></div>
+      </article>
+      <article class="info-card">
+        <div class="card-top"><span class="pill muted">INCLUDED</span><span>02</span></div>
+        <h2>Run-ready folders</h2>
+        <p>Each question has its own setup files and a RUN.md so you can open the folder and run it directly.</p>
+      </article>
+      <article class="info-card">
+        <div class="card-top"><span class="pill muted">FLOW</span><span>03</span></div>
+        <h2>Download → extract → run</h2>
+        <p>Download the pack, extract it, open a question folder in VS Code, install dependencies, and run.</p>
+      </article>
+    </section>
+
+    <section class="list-section">
+      <div class="section-head"><div><div class="eyebrow">INSIDE THE VAULT</div><h2>What’s included</h2></div><span class="count">09 PRACTICALS</span></div>
+      <div class="practical-list">
+        <div><b>Prac 2</b><span>Props • Functions • State • Class Counter</span></div>
+        <div><b>Prac 3</b><span>Node.js File Operations</span></div>
+        <div><b>Prac 4</b><span>Modules • EventEmitter</span></div>
+        <div><b>Prac 5</b><span>HTTP Server • Express API</span></div>
+        <div><b>Prac 6</b><span>MongoDB • React Arrays</span></div>
+        <div><b>Prac 7</b><span>useState • useReducer</span></div>
+        <div><b>Prac 8</b><span>Fetch • Context API</span></div>
+        <div><b>Prac 9</b><span>React Lifecycle</span></div>
+        <div><b>Prac 10</b><span>React Router • Nested Routes</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>PracExam Vault</span><span>Made for practical prep ✦</span></footer>
+
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-box">
+      <button class="close" id="closeBtn" aria-label="Close">×</button>
+      <div class="download-icon">↓</div>
+      <div class="eyebrow">PREPARING YOUR DOWNLOAD</div>
+      <h2>Your ZIP is ready.</h2>
+      <p id="countdownText">Starting download in <strong>3</strong>…</p>
+      <div class="progress"><span id="progressBar"></span></div>
+      <button class="secondary" id="downloadNow">Download now</button>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
